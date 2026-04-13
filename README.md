@@ -40,7 +40,7 @@ Caso o aluno não queira desenvolver sua própria linguagem, um subconjunto da l
 
 O compilador deve, obrigatoriamente, usar as ferramentas [Flex](https://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/) e [Bison](https://www.gnu.org/software/bison/manual/html_node/). 
 
-Um arquivo inicial para o Flex [compilador.l](./compilador.l) e Bison [compilador.y](./compilador.y) já está incluído neste repositório. 
+Um arquivo inicial para o Flex [compilador.l](./compilador.l) e Bison [compilador.y](./compilador.y) já estão incluídos neste repositório. 
 
 Um arquivo Makefile também foi incluído, e pode ser modificado de acordo com a organização do seu projeto. Porém, o arquivo executável não pode ser alterado (chamado `compilador`
 ).
@@ -67,6 +67,7 @@ Caso queira criar uma linguagem de programação específica, ela deve seguir os
 - Não precisa ser imperativa, pode criar uma linguagem usando outro paradigma.
 
 - Uma gramática, sem ações sintáticas, deve ser entregue na submissão.
+    - Bem como a lista de tokens para o analisador léxico.
 
 - Vários exemplos de programas, que trabalham com cada ponto da linguagem, deve ser entregue. Por exemplo, programas para:
     - testar expressões simples
